@@ -1,70 +1,70 @@
-# Getting Started with Create React App
+# Injury Information Finder
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a simple React application that allows users to click on an interactive anatomy diagram to learn about potential injuries in different muscle groups.
 
-## Available Scripts
+## Description
 
-In the project directory, you can run:
+The application presents an SVG-based anatomy diagram. Users can hover over different body parts, which are then highlighted. Clicking on a body part takes the user to a more detailed page listing specific sub-muscles. From there, the user can select a sub-muscle to view a list of possible injuries, their descriptions, and common causes.
 
-### `npm start`
+## Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Anatomy Diagram
+The application starts with a full anatomy diagram. The user can interact with different body parts.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+![Anatomy Diagram](assets/Anatomy-Diagram.png)
 
-### `npm test`
+### Close-Up Look and Highlighting
+When the user hovers over a body part, it gets highlighted, providing a close-up look at the muscle group.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![Close-Up Look](assets/Close-Up-Look.png)
 
-### `npm run build`
+### Area Selection
+After clicking a body part, the user is directed to a page where they can select a specific area of that muscle group.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+![Area Selection](assets/Area-Selection.png)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Detailed Information
+The application provides detailed information about potential injuries for the selected muscle area, including common causes.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+![Detailed Information](assets/Detailed-Informations.png)
 
-### `npm run eject`
+### Medical Disclaimer
+A clear medical disclaimer is displayed to ensure users understand the information is not a substitute for professional medical advice.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+![Medical Disclaimer](assets/Medical-Disclaimer.png)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Getting Started
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+To run this project locally, follow these steps:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+1.  **Clone the repository:**
+    ```bash
+    git clone <repository-url>
+    ```
+2.  **Navigate to the project directory:**
+    ```bash
+    cd injury-finder
+    ```
+3.  **Install dependencies:**
+    ```bash
+    npm install
+    ```
+4.  **Start the development server:**
+    ```bash
+    npm start
+    ```
+    This will open the application in your default web browser at `http://localhost:3000`.
 
-## Learn More
+## Tech Stack
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+*   **React:** A JavaScript library for building user interfaces.
+*   **React Router:** For handling routing within the application.
+*   **JavaScript (ES6+):** The primary programming language.
+*   **CSS:** For styling the application.
+<<<<<<< HEAD
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Disclaimer
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This application is for informational purposes only and is not a substitute for professional medical advice, diagnosis, or treatment. Always seek the advice of your physician or other qualified health provider with any questions you may have regarding a medical condition.
+=======
+>>>>>>> fc935e5cf4860ce3afd8914ce0b89fd61aa1cdc8
