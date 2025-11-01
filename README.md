@@ -8,10 +8,30 @@ The application presents an SVG-based anatomy diagram. Users can hover over diff
 
 ## Features
 
-*   **Interactive Anatomy Diagram:** An SVG-based diagram with clickable body parts.
-*   **Dynamic Routing:** Uses `react-router-dom` to navigate between the main diagram, sub-muscle lists, and injury details.
-*   **Data-Driven:** Injury and muscle information is loaded from a `injuryData.json` file.
-*   **Component-Based:** Built with reusable React components for different pages and UI elements.
+### Anatomy Diagram
+The application starts with a full anatomy diagram. The user can interact with different body parts.
+
+![Anatomy Diagram](assets/Anatomy-Diagram.png)
+
+### Close-Up Look and Highlighting
+When the user hovers over a body part, it gets highlighted, providing a close-up look at the muscle group.
+
+![Close-Up Look](assets/Close-Up-Look.png)
+
+### Area Selection
+After clicking a body part, the user is directed to a page where they can select a specific area of that muscle group.
+
+![Area Selection](assets/Area-Selection.png)
+
+### Detailed Information
+The application provides detailed information about potential injuries for the selected muscle area, including common causes.
+
+![Detailed Information](assets/Detailed-Informations.png)
+
+### Medical Disclaimer
+A clear medical disclaimer is displayed to ensure users understand the information is not a substitute for professional medical advice.
+
+![Medical Disclaimer](assets/Medical-Disclaimer.png)
 
 ## Getting Started
 
@@ -41,3 +61,7 @@ To run this project locally, follow these steps:
 *   **React Router:** For handling routing within the application.
 *   **JavaScript (ES6+):** The primary programming language.
 *   **CSS:** For styling the application.
+
+## Disclaimer
+
+This application is for informational purposes only and is not a substitute for professional medical advice, diagnosis, or treatment. Always seek the advice of your physician or other qualified health provider with any questions you may have regarding a medical condition.
