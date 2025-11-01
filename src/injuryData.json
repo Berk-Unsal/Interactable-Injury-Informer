@@ -1,0 +1,725 @@
+{
+  "bodyParts": [
+    {
+      "id": "shoulder",
+      "name": "Shoulder",
+      "view": "front",
+      "subMuscles": [
+        {
+          "id": "deltoid-anterior",
+          "name": "Anterior Deltoid (Front Shoulder)",
+          "possibleInjuries": [
+            {
+              "name": "Deltoid Strain (Front)",
+              "description": "A pull, tear, or over-stretching of the muscle fibers at the front of the shoulder.",
+              "commonCauses": ["Overuse from pushing exercises (e.g., bench press)", "Sudden, forceful lifting", "Improper weightlifting form"]
+            },
+            {
+              "name": "Front Deltoid Tendinopathy",
+              "description": "Degeneration or inflammation of the tendon connecting the front deltoid to the bone.",
+              "commonCauses": ["Repetitive overhead lifting", "Chronic overuse in sports", "Poor mechanics in lifting"]
+            }
+          ]
+        },
+        {
+          "id": "deltoid-lateral",
+          "name": "Lateral Deltoid (Side Shoulder)",
+          "possibleInjuries": [
+            {
+              "name": "Deltoid Strain (Side)",
+              "description": "A pull or tear in the muscle fibers on the side of the shoulder, responsible for lifting the arm sideways.",
+              "commonCauses": ["Repetitive side-lifting motions", "Improper form during lateral raises", "Direct impact to the side of the shoulder"]
+            }
+          ]
+        },
+        {
+          "id": "deltoid-posterior",
+          "name": "Posterior Deltoid (Rear Shoulder)",
+          "possibleInjuries": [
+            {
+              "name": "Deltoid Strain (Rear)",
+              "description": "A pull or tear in the muscle fibers at the back of the shoulder.",
+              "commonCauses": ["Overuse from pulling exercises (e.g., rows)", "Forceful, sudden arm extension", "Sports involving high-speed arm movements (e.g., tennis serve)"]
+            }
+          ]
+        },
+        {
+          "id": "rotator-cuff-area",
+          "name": "Rotator Cuff Area",
+          "possibleInjuries": [
+            {
+              "name": "Rotator Cuff Tear",
+              "description": "A partial or full tear in one or more of the four tendons (supraspinatus, infraspinatus, teres minor, subscapularis) that stabilize the shoulder.",
+              "commonCauses": ["Repetitive overhead motion (e.g., painting, swimming)", "Acute injury from a fall", "Heavy lifting with a jerking motion", "Age-related degeneration"]
+            },
+            {
+              "name": "Shoulder Impingement / Tendinitis",
+              "description": "Inflammation of the rotator cuff tendons as they pass through the narrow subacromial space, often getting 'pinched'.",
+              "commonCauses": ["Repetitive overhead activities", "Poor posture (rounded shoulders)", "Bone spurs on the acromion", "Sleeping on the affected shoulder"]
+            },
+            {
+              "name": "Shoulder Bursitis",
+              "description": "Inflammation of the bursa, a small fluid-filled sac that cushions the tendons from the bone.",
+              "commonCauses": ["Often co-occurs with impingement", "Repetitive minor trauma", "Prolonged pressure on the shoulder"]
+            }
+          ]
+        },
+        {
+          "id": "ac-joint",
+          "name": "Acromioclavicular (AC) Joint",
+          "possibleInjuries": [
+            {
+              "name": "AC Joint Sprain (Shoulder Separation)",
+              "description": "An injury to the ligaments that connect the collarbone (clavicle) to the shoulder blade (acromion). Graded from mild to severe.",
+              "commonCauses": ["Direct fall onto the point of the shoulder", "Hard impact from sports (e.g., hockey, football)", "Falling on an outstretched arm"]
+            }
+          ]
+        },
+        {
+          "id": "glenohumeral-joint",
+          "name": "Glenohumeral Joint (Main Socket)",
+          "possibleInjuries": [
+            {
+              "name": "Shoulder Dislocation / Instability",
+              "description": "The head of the upper arm bone (humerus) is forcibly removed from its shallow socket (glenoid).",
+              "commonCauses": ["Traumatic impact from a fall or collision", "Forceful, extreme rotation of the arm", "Underlying joint laxity"]
+            },
+            {
+              "name": "Frozen Shoulder (Adhesive Capsulitis)",
+              "description": "A condition characterized by stiffness and pain in the shoulder joint, where the joint capsule becomes thick and tight.",
+              "commonCauses": ["Prolonged immobilization after injury or surgery", "Idiopathic (no known cause)", "More common in people with diabetes"]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "traps",
+      "name": "Trapezius (Traps)",
+      "view": "back",
+      "subMuscles": [
+        {
+          "id": "traps-upper",
+          "name": "Upper Trapezius",
+          "possibleInjuries": [
+            {
+              "name": "Trapezius Strain / Myofascial Pain",
+              "description": "Overstretching or microscopic tearing of the muscle fibers, often resulting in muscle knots (trigger points), stiffness, and tension headaches.",
+              "commonCauses": [
+                "Poor posture (e.g., forward head posture, 'text neck')",
+                "Chronic psychological stress",
+                "Lifting heavy objects improperly (e.g., heavy shrugs)",
+                "Carrying a heavy bag on one shoulder",
+                "Whiplash injury (e.g., car accident)"
+              ]
+            },
+            {
+              "name": "Nerve Entrapment",
+              "description": "A tight upper trapezius muscle can sometimes compress nearby nerves (like the accessory nerve), leading to pain, weakness, or tingling.",
+              "commonCauses": [
+                "Chronic muscle tightness and knots",
+                "Repetitive head-turning motions",
+                "Previous injury leading to scar tissue"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "traps-middle",
+          "name": "Middle Trapezius",
+          "possibleInjuries": [
+            {
+              "name": "Middle Trapezius Strain",
+              "description": "Pain or strain located in the region between the shoulder blades, often associated with repetitive arm movements.",
+              "commonCauses": [
+                "Repetitive pulling motions (e.g., rowing)",
+                "Prolonged slouching while sitting at a desk",
+                "Weakness leading to overuse during overhead activities",
+                "Improper form during 'pulling' exercises"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "traps-lower",
+          "name": "Lower Trapezius",
+          "possibleInjuries": [
+            {
+              "name": "Lower Trapezius Strain or Weakness",
+              "description": "Pain or dysfunction in the lower shoulder blade area. Weakness in this muscle is a very common contributor to shoulder impingement and poor posture.",
+              "commonCauses": [
+                "Chronic poor posture (rounded shoulders)",
+                "Muscle imbalance (dominant upper traps and chest)",
+                "Lack of targeted strengthening exercises",
+                "Sedentary lifestyle"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rhomboids",
+      "name": "Rhomboids",
+      "view": "back",
+      "subMuscles": [
+        {
+          "id": "rhomboid-minor",
+          "name": "Rhomboid Minor",
+          "possibleInjuries": [
+            {
+              "name": "Rhomboid Strain",
+              "description": "A pull, tear, or over-stretching of the muscle fibers, often felt as a sharp or aching pain between the upper shoulder blade and the spine.",
+              "commonCauses": ["Poor posture (prolonged hunching or 'text neck')", "Repetitive pulling motions (e.g., rowing)", "Sudden, forceful pulling", "Sleeping in an awkward position"]
+            }
+          ]
+        },
+        {
+          "id": "rhomboid-major",
+          "name": "Rhomboid Major",
+          "possibleInjuries": [
+            {
+              "name": "Rhomboid Strain",
+              "description": "A pull or tear in the larger rhomboid muscle, causing pain, knots (trigger points), and stiffness between the shoulder blades.",
+              "commonCauses": ["Chronic poor posture", "Overuse in sports (e.g., tennis, golf)", "Improper form during lifting (e.g., deadlifts, rows)", "Carrying heavy backpacks"]
+            },
+            {
+              "name": "Snapping Scapula Syndrome (Scapulothoracic Bursitis)",
+              "description": "A grinding, popping, or 'snapping' sensation of the shoulder blade against the rib cage, often caused by muscle imbalance (tight/weak rhomboids) or bursitis.",
+              "commonCauses": ["Muscle imbalances around the scapula", "Repetitive overhead activities", "Poor posture", "Bony abnormalities"]
+            }
+          ]
+        }
+      ]
+    },
+    {
+          "id": "teres-minor",
+          "name": "Teres Minor",
+          "view": "back",
+          "subMuscles": [
+            {
+              "id": "teres-minor-main",
+              "name": "Teres Minor Muscle",
+              "possibleInjuries": [
+                {
+                  "name": "Teres Minor Strain (Rotator Cuff Tear)",
+                  "description": "A stretch, pull, or tear of the teres minor muscle or its tendon. As a key rotator cuff muscle, it helps with external rotation (rotating the arm outward) and stabilizing the shoulder.",
+                  "commonCauses": ["Forceful, sudden external rotation (e.g., stopping a throw)", "Repetitive overhead activities (e.g., pitching, tennis serve)", "Falling on an outstretched arm", "Degenerative wear and tear"]
+                },
+                {
+                  "name": "Teres Minor Tendinopathy / Tendinitis",
+                  "description": "Inflammation or degeneration (tendinopathy) of the teres minor tendon, often where it attaches to the humerus.",
+                  "commonCauses": ["Chronic overuse from repetitive external rotation", "Poor biomechanics in throwing or overhead sports", "Often co-occurs with shoulder impingement"]
+                },
+                {
+                  "name": "Quadrilateral Space Syndrome",
+                  "description": "Compression of the axillary nerve and an artery in a small space (the quadrilateral space) bordered by the teres minor, teres major, humerus, and triceps. This can cause vague shoulder pain and weakness.",
+                  "commonCauses": ["Thickening (fibrosis) of the teres minor from overuse", "Muscle hypertrophy (overdevelopment) in athletes", "Direct trauma to the posterior shoulder", "Cysts (rare)"]
+                }
+              ]
+            }
+          ]
+    },
+        {
+          "id": "chest",
+          "name": "Chest (Pectorals)",
+          "view": "front",
+          "subMuscles": [
+            {
+              "id": "pec-major-clavicular",
+              "name": "Pectoralis Major (Clavicular Head - Upper Chest)",
+              "possibleInjuries": [
+                {
+                  "name": "Pectoral Strain (Upper)",
+                  "description": "A pull or tear of the muscle fibers in the upper portion of the chest, often near where it attaches to the arm.",
+                  "commonCauses": ["Overuse from incline pressing movements", "Sudden, forceful 'fly' or adduction motion", "Improper weightlifting form"]
+                }
+              ]
+            },
+            {
+              "id": "pec-major-sternal",
+              "name": "Pectoralis Major (Sternal Head - Main/Lower Chest)",
+              "possibleInjuries": [
+                {
+                  "name": "Pectoral Tear / Rupture",
+                  "description": "A partial or complete tear of the main pectoral muscle or its tendon, most often where it attaches to the upper arm bone (humerus). This is a severe injury.",
+                  "commonCauses": ["Sudden, high-force contraction, especially during a bench press (often on the eccentric/lowering phase)", "Direct trauma to the chest or armpit area", "Steroid use can weaken tendons, increasing risk"]
+                },
+                {
+                  "name": "Pectoral Strain (Sternal)",
+                  "description": "A less severe pull or micro-tear in the main belly of the pectoral muscle.",
+                  "commonCauses": ["Overtraining chest exercises", "Improper form on dips or bench press", "Insufficient warm-up before heavy lifting"]
+                }
+              ]
+            },
+            {
+              "id": "pec-minor",
+              "name": "Pectoralis Minor (Deep)",
+              "possibleInjuries": [
+                {
+                  "name": "Pectoralis Minor Syndrome",
+                  "description": "A condition where the pec minor muscle becomes tight and overactive, compressing the brachial plexus (nerves) and blood vessels that run beneath it, causing pain, numbness, or tingling in the arm, shoulder, and hand.",
+                  "commonCauses": ["Chronic poor posture (rounded shoulders, forward head)", "Repetitive overhead arm movements", "Muscle imbalance from overtraining chest and undertraining back", "Sleeping with the arm overhead"]
+                },
+                {
+                  "name": "Pec Minor Strain",
+                  "description": "A strain of the small, deep muscle that pulls the shoulder blade forward and down.",
+                  "commonCauses": ["Over-reaching forward suddenly", "Chronic postural strain", "Overuse in activities like swimming or throwing"]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "tricep",
+          "name": "Triceps",
+          "view": "back",
+          "subMuscles": [
+            {
+              "id": "triceps-muscle-belly",
+              "name": "Triceps Muscle Belly (Long, Lateral, & Medial Heads)",
+              "possibleInjuries": [
+                {
+                  "name": "Triceps Strain",
+                  "description": "A pull, tear, or over-stretching of the muscle fibers in one of the three heads (long, lateral, or medial) of the triceps.",
+                  "commonCauses": ["Forceful, sudden extension of the elbow (e.g., throwing)", "Overuse from repetitive pushing (e.g., push-ups, dips, bench press)", "Insufficient warm-up before heavy lifting", "Direct blow to the back of the arm"]
+                }
+              ]
+            },
+            {
+              "id": "triceps-tendon",
+              "name": "Triceps Tendon (at Elbow)",
+              "possibleInjuries": [
+                {
+                  "name": "Triceps Tendinitis / Tendinopathy",
+                  "description": "Inflammation or degeneration of the triceps tendon, which attaches the muscle to the point of the elbow (olecranon).",
+                  "commonCauses": ["Repetitive elbow extension activities (e.g., hammering, weightlifting)", "Sudden increase in training volume for pushing exercises", "Direct trauma to the elbow point"]
+                },
+                {
+                  "name": "Triceps Tendon Rupture",
+                  "description": "A partial or complete tear of the triceps tendon from the elbow bone. This is a severe injury causing pain, swelling, and inability to straighten the elbow against resistance.",
+                  "commonCauses": ["A sudden, forceful contraction (e.g., trying to catch a heavy falling weight)", "A fall onto an outstretched hand", "A direct, sharp blow to the tendon"]
+                },
+                {
+                  "name": "Olecranon Bursitis (Student's Elbow)",
+                  "description": "Inflammation of the bursa (a small, fluid-filled sac) that lies between the point of the elbow and the skin. While not a muscle injury, it's directly related to the triceps insertion area.",
+                  "commonCauses": ["Prolonged pressure on the elbow (e.g., leaning on a desk)", "A direct blow to the tip of the elbow", "Infection"]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "bicep",
+          "name": "Biceps",
+          "view": "front",
+          "subMuscles": [
+            {
+              "id": "biceps-long-head-tendon",
+              "name": "Biceps (Long Head Tendon - at Shoulder)",
+              "possibleInjuries": [
+                {
+                  "name": "Biceps Tendinitis (Proximal)",
+                  "description": "Inflammation or irritation of the long head of the biceps tendon as it passes through the bicipital groove in the shoulder.",
+                  "commonCauses": ["Repetitive overhead motions (e.g., swimming, throwing)", "Overuse in pulling or curling exercises", "Often co-occurs with shoulder impingement or rotator cuff issues"]
+                },
+                {
+                  "name": "Proximal Biceps Tendon Rupture (Popeye Muscle)",
+                  "description": "A tear of the long head of the biceps tendon from its attachment at the shoulder, often causing the muscle belly to 'ball up'.",
+                  "commonCauses": ["Sudden, heavy load (e.g., catching a heavy falling object)", "Degenerative wear and tear over time", "Chronic tendinitis that weakens the tendon"]
+                },
+                {
+                  "name": "SLAP Tear",
+                  "description": "An injury to the labrum (cartilage) of the shoulder socket, specifically where the long head of the biceps tendon attaches (Superior Labrum Anterior to Posterior).",
+                  "commonCauses": ["Falling on an outstretched arm", "Repetitive, forceful overhead motions (e.g., pitching)", "Acute heavy lifting or jerking motions"]
+                }
+              ]
+            },
+            {
+              "id": "biceps-muscle-belly",
+              "name": "Biceps Muscle Belly (Short & Long Heads)",
+              "possibleInjuries": [
+                {
+                  "name": "Biceps Strain",
+                  "description": "A pull, tear, or over-stretching of the muscle fibers in the main belly of the biceps.",
+                  "commonCauses": ["Overuse from repetitive curling or lifting", "Sudden, forceful contraction against resistance", "Insufficient warm-up before weightlifting", "Direct impact to the muscle"]
+                }
+              ]
+            },
+            {
+              "id": "biceps-distal-tendon",
+              "name": "Distal Biceps Tendon (at Elbow)",
+              "possibleInjuries": [
+                {
+                  "name": "Distal Biceps Tendinitis",
+                  "description": "Inflammation or degeneration of the biceps tendon where it attaches to the radius bone in the forearm.",
+                  "commonCauses": ["Repetitive, forceful supination (twisting the forearm palm-up)", "Overuse from curling or rock climbing", "Improper lifting mechanics"]
+                },
+                {
+                  "name": "Distal Biceps Tendon Rupture",
+                  "description": "A partial or complete tear of the biceps tendon from its attachment at the elbow. This is a severe injury often causing a 'pop' and weakness.",
+                  "commonCauses": ["A sudden, forceful eccentric load (e.g., trying to catch a heavy box)", "Lifting an unexpectedly heavy object", "Common in mixed-grip deadlifts"]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "lat",
+          "name": "Latissimus Dorsi (Lats)",
+          "view": "back",
+          "subMuscles": [
+            {
+              "id": "lats-muscle-belly",
+              "name": "Latissimus Dorsi Muscle Belly",
+              "possibleInjuries": [
+                {
+                  "name": "Latissimus Dorsi Strain (Pulled Lat)",
+                  "description": "A stretch, pull, or tear of the muscle fibers in the large, fan-shaped muscle of the back. This is the most common lat injury.",
+                  "commonCauses": ["Forceful pulling motions (e.g., pull-ups, deadlifts)", "Repetitive overuse (e.g., swimming, rowing, pitching)", "Improper form during 'pull' exercises", "Sudden, forceful arm adduction (bringing arm to side)"]
+                },
+                {
+                  "name": "Myofascial Pain Syndrome",
+                  "description": "Development of painful knots (trigger points) within the lat muscle or its surrounding fascia, often referring pain to the shoulder, armpit, or lower back.",
+                  "commonCauses": ["Chronic muscle tension", "Poor posture", "Muscle imbalances"]
+                }
+              ]
+            },
+            {
+              "id": "lats-tendon",
+              "name": "Latissimus Dorsi Tendon (at Arm Insertion)",
+              "possibleInjuries": [
+                {
+                  "name": "Latissimus Dorsi Tendinopathy",
+                  "description": "Degeneration or inflammation of the lat tendon, causing pain in the armpit, front, or back of the shoulder where it attaches to the humerus (upper arm bone).",
+                  "commonCauses": ["Chronic overuse from repetitive pulling", "Poor mechanics in overhead sports (e.g., throwing)", "Muscle imbalances in the shoulder"]
+                },
+                {
+                  "name": "Latissimus Dorsi Tendon Rupture / Tear",
+                  "description": "A partial or, more rarely, complete tear of the tendon where the lat muscle attaches to the upper arm bone. This is a severe injury.",
+                  "commonCauses": ["High-force, eccentric contraction (e.g., lowering a heavy lat pull-down)", "Traumatic injury in sports (e.g., rock climbing, gymnastics, wrestling)", "Sudden, violent pulling motion"]
+                }
+              ]
+            }
+            
+          ]
+        },
+        {
+          "id": "forearm",
+          "name": "Forearm",
+          "view": "front",
+          "subMuscles": [
+            {
+              "id": "forearm-flexors",
+              "name": "Wrist Flexors (Anterior Forearm)",
+              "possibleInjuries": [
+                {
+                  "name": "Medial Epicondylitis (Golfer's Elbow)",
+                  "description": "Inflammation or degeneration of the tendons that attach the forearm flexor muscles to the inner part of the elbow (medial epicondyle).",
+                  "commonCauses": ["Repetitive, forceful gripping (e.g., golf, climbing)", "Improper form on pulling or curling exercises", "Repetitive wrist flexion"]
+                },
+                {
+                  "name": "Flexor Strain",
+                  "description": "A pull or tear of the muscle fibers on the front (palm side) of the forearm.",
+                  "commonCauses": ["Overuse from gripping sports (e.g., rock climbing)", "Sudden, heavy lifting", "Improper form on wrist curls"]
+                },
+                {
+                  "name": "Carpal Tunnel Syndrome",
+                  "description": "Compression of the median nerve as it passes through the carpal tunnel in the wrist, often due to inflamed flexor tendons. Causes numbness, tingling, and weakness.",
+                  "commonCauses": ["Repetitive hand motions (e.g., typing)", "Prolonged wrist flexion", "Using vibrating hand tools"]
+                }
+              ]
+            },
+            {
+              "id": "forearm-extensors",
+              "name": "Wrist Extensors (Posterior Forearm)",
+              "possibleInjuries": [
+                {
+                  "name": "Lateral Epicondylitis (Tennis Elbow)",
+                  "description": "Inflammation or degeneration of the tendons that attach the forearm extensor muscles to the outer part of the elbow (lateral epicondyle).",
+                  "commonCauses": ["Repetitive gripping and wrist extension (e.g., tennis backhand, using tools)", "Improper form on pulling exercises (e.g., rows, pull-ups)", "Poor keyboard/mouse ergonomics"]
+                },
+                {
+                  "name": "Extensor Strain",
+                  "description": "A pull or tear of the muscle fibers on the back (knuckle side) of the forearm.",
+                  "commonCauses": ["Sudden, forceful wrist extension", "Overuse in activities like motorcycling or racquet sports", "Improper form on reverse wrist curls"]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "lowerback",
+          "name": "Lower Back",
+          "view": "back",
+          "subMuscles": [
+            {
+              "id": "erector-spinae-lumbar",
+              "name": "Erector Spinae (Spinal Erectors)",
+              "possibleInjuries": [
+                {
+                  "name": "Lumbar Muscle Strain (Pulled Lower Back)",
+                  "description": "A stretching, pull, or tear of the muscle fibers (often the erector spinae) or ligaments in the lower back, leading to pain, stiffness, and muscle spasms.",
+                  "commonCauses": ["Lifting a heavy object improperly (e.g., rounding the back)", "Sudden, awkward twisting or bending", "Muscle fatigue from prolonged poor posture", "Weak core and glute muscles"]
+                },
+                {
+                  "name": "Myofascial Pain Syndrome",
+                  "description": "The development of painful 'trigger points' or knots in the lower back muscles, which can cause localized pain or refer pain to other areas like the hips.",
+                  "commonCauses": ["Chronic poor posture (e.g., slouching)", "Repetitive motions", "Muscle imbalances"]
+                }
+              ]
+            },
+            {
+              "id": "quadratus-lumborum",
+              "name": "Quadratus Lumborum (QL)",
+              "possibleInjuries": [
+                {
+                  "name": "QL Strain / Tightness",
+                  "description": "A strain or, more commonly, deep tightness and trigger points in the QL muscle, often causing a deep, aching pain on one side of the lower back.",
+                  "commonCauses": ["Lifting an object from an awkward side position", "Prolonged sitting with poor posture (e.g., leaning to one side)", "Muscle imbalances (e.g., weak glutes)", "Sleeping in a bad position"]
+                }
+              ]
+            },
+            {
+              "id": "glute-referral-area",
+              "name": "Gluteus Medius (Referral Pain)",
+              "possibleInjuries": [
+                {
+                  "name": "Gluteus Medius Syndrome (Referral Pain)",
+                  "description": "While technically a hip muscle, tightness, weakness, or trigger points in the gluteus medius (upper/side glute) very commonly refer pain directly to the lower back.",
+                  "commonCauses": ["Prolonged sitting", "Running or hiking with poor mechanics", "Sleeping on one side without support", "Muscle imbalances"]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "glute",
+          "name": "Glutes",
+          "view": "back",
+          "subMuscles": [
+            {
+              "id": "gluteus-maximus",
+              "name": "Gluteus Maximus",
+              "possibleInjuries": [
+                {
+                  "name": "Gluteus Maximus Strain",
+                  "description": "A pull or tear of the large glute muscle fibers. Causes pain in the buttock during contraction, such as climbing stairs or running.",
+                  "commonCauses": ["Sudden sprinting or squatting", "Overuse from high-intensity exercise", "Improper form during lunges or deadlifts"]
+                },
+                {
+                  "name":"Deep Gluteal Syndrome (Piriformis Syndrome)",
+                  "description": "Pain, tingling, or numbness in the buttocks that radiates down the leg. This is often caused by the deep piriformis muscle compressing the sciatic nerve.",
+                  "commonCauses": ["Prolonged sitting", "Muscle tightness in the deep glute", "Overuse from activities like long-distance running"]
+                }
+              ]
+            },
+            {
+              "id": "gluteus-medius",
+              "name": "Gluteus Medius (Upper/Side Glute)",
+              "possibleInjuries": [
+                {
+                  "name": "Gluteus Medius Tendinopathy",
+                  "description": "Degeneration or inflammation of the gluteus medius tendon where it attaches to the hip bone. This often causes pain on the outside of the hip.",
+                  "commonCauses": ["Repetitive impact like running", "Muscle imbalances such as weak glutes", "Sleeping on the affected side"]
+                },
+                {
+                  "name": "Gluteus Medius Strain or Trigger Points",
+                  "description": "A pull or the development of tight, painful muscle knots. This can refer pain to the lower back or down the leg.",
+                  "commonCauses": ["Muscle weakness leading to overuse", "Poor biomechanics during walking or running", "Sitting with legs crossed"]
+                }
+              ]
+            },
+            {
+              "id": "gluteus-minimus",
+              "name": "Gluteus Minimus (Deepest Glute)",
+              "possibleInjuries": [
+                {
+                  "name": "Gluteus Minimus Tendinopathy or Tear",
+                  "description": "Inflammation or tearing of the deepest glute muscle tendon, causing pain on the outside of the hip, similar to gluteus medius issues.",
+                  "commonCauses": ["Degenerative changes with age", "Repetitive strain", "Hip imbalances"]
+                },
+                {
+                  "name": "Trigger Points (Referral Pain)",
+                  "description": "Painful knots in this muscle can send sharp, sciatic-like pain down the side or back of the leg, often mimicking a true sciatica condition.",
+                  "commonCauses": ["Chronic muscle tightness", "Prolonged sitting", "Direct trauma to the buttock"]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "hamstring",
+          "name": "Hamstrings",
+          "view": "back",
+          "subMuscles": [
+            {
+              "id": "hamstring-main-belly",
+              "name": "Hamstring Muscle Belly (Biceps Femoris, Semitendinosus, Semimembranosus)",
+              "possibleInjuries": [
+                {
+                  "name": "Hamstring Strain / Pulled Hamstring",
+                  "description": "A stretch, pull, or tear in one or more of the hamstring muscles. Graded 1 (mild) to 3 (complete rupture).",
+                  "commonCauses": ["Sprinting or sudden acceleration", "Over-stretching (e.g., high kicks, sliding)", "Muscle fatigue or weakness", "Improper warm-up", "Poor flexibility"]
+                },
+                {
+                  "name": "Myofascial Pain / Trigger Points",
+                  "description": "The development of tight, painful knots (trigger points) in the hamstring muscles, which can cause local pain or refer pain to the knee.",
+                  "commonCauses": ["Chronic overuse", "Prolonged sitting (shortened muscle position)", "Muscle imbalances (e.g., tight quads)"]
+                }
+              ]
+            },
+            {
+              "id": "proximal-hamstring-tendon",
+              "name": "Proximal Tendon (at Glute)",
+              "possibleInjuries": [
+                {
+                  "name": "Proximal Hamstring Tendinopathy",
+                  "description": "Inflammation or degeneration of the hamstring tendons where they attach to the 'sit bone' (ischial tuberosity). Often causes a deep ache in the buttock.",
+                  "commonCauses": ["Repetitive hip flexion (e.g., running, cycling)", "Prolonged sitting on hard surfaces", "Over-stretching", "Deep lunges or squats"]
+                },
+                {
+                  "name": "Proximal Hamstring Tendon Avulsion",
+                  "description": "A severe injury where the hamstring tendon tears completely away from the sit bone, sometimes pulling a small piece of bone with it.",
+                  "commonCauses": ["Sudden, forceful contraction (e.g., water skiing, sprinting)", "Forced, extreme stretching (e.g., splits)"]
+                }
+              ]
+            },
+            {
+              "id": "distal-hamstring-tendon",
+              "name": "Distal Tendons (at Knee)",
+              "possibleInjuries": [
+                {
+                  "name": "Distal Hamstring Tendinitis",
+                  "description": "Inflammation of the hamstring tendons (either on the inner or outer side) just behind the knee.",
+                  "commonCauses": ["Overuse from running (especially downhill)", "Repetitive knee flexion activities", "Muscle imbalances"]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "quad",
+          "name": "Quadriceps (Quads)",
+          "view": "front",
+          "subMuscles": [
+            {
+              "id": "quad-muscle-belly",
+              "name": "Quadriceps Muscle Belly (Main Thigh)",
+              "possibleInjuries": [
+                {
+                  "name": "Quadriceps Strain (Pulled Quad)",
+                  "description": "A stretch, pull, or tear in one of the four quadriceps muscles (rectus femoris, vastus lateralis, vastus medialis, vastus intermedius).",
+                  "commonCauses": ["Sprinting or sudden acceleration/deceleration", "Kicking motions (e.g., soccer)", "Muscle fatigue or weakness", "Improper warm-up", "Overuse from squatting or lunging"]
+                },
+                {
+                  "name": "Quadriceps Contusion (Corked Thigh)",
+                  "description": "A deep bruise in the muscle caused by a direct, hard impact, leading to internal bleeding, swelling, and pain.",
+                  "commonCauses": ["Direct blow from sports (e.g., a knee or helmet)", "Impact from a fall", "Contact sports"]
+                }
+              ]
+            },
+            {
+              "id": "quad-patellar-tendon",
+              "name": "Patellar Tendon (at Knee)",
+              "possibleInjuries": [
+                {
+                  "name": "Patellar Tendinitis (Jumper's Knee)",
+                  "description": "Inflammation or degeneration of the tendon connecting the kneecap (patella) to the shinbone (tibia). Causes pain just below the kneecap.",
+                  "commonCauses": ["Repetitive jumping (e.g., basketball, volleyball)", "Sudden increase in running or squatting", "Poor landing mechanics", "Tight quad muscles"]
+                },
+                {
+                  "name": "Quadriceps Tendinopathy / Rupture",
+                  "description": "Inflammation or a tear (partial or complete) of the tendon that connects the quadriceps muscles to the top of the kneecap.",
+                  "commonCauses": ["Forceful landing from a jump", "A fall onto a bent knee", "Weakened tendon from chronic inflammation"]
+                }
+              ]
+            },
+            {
+              "id": "quad-hip-flexor",
+              "name": "Rectus Femoris (at Hip)",
+              "possibleInjuries": [
+                {
+                  "name": "Hip Flexor Strain (Rectus Femoris)",
+                  "description": "A pull or tear of the rectus femoris muscle (the only quad muscle that crosses the hip) or its tendon where it attaches at the hip. Causes pain in the front of the hip or high on the thigh.",
+                  "commonCauses": ["Sprinting or rapid acceleration", "Repetitive high-knee motions", "Forceful kicking", "Over-stretching the hip into extension"]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "calf",
+          "name": "Calves",
+          "view": "back",
+          "subMuscles": [
+            {
+              "id": "gastrocnemius",
+              "name": "Gastrocnemius (Upper Calf)",
+              "possibleInjuries": [
+                {
+                  "name": "Calf Strain (Tennis Leg)",
+                  "description": "A sudden, sharp pain from a tear in the gastrocnemius muscle, often the medial (inner) head.",
+                  "commonCauses": ["Sudden acceleration (e.g., sprinting)", "Jumping or pushing off", "Sports like tennis or basketball", "Muscle fatigue"]
+                }
+              ]
+            },
+            {
+              "id": "soleus",
+              "name": "Soleus (Deep Calf)",
+              "possibleInjuries": [
+                {
+                  "name": "Soleus Strain",
+                  "description": "A deeper, often nagging or aching pain in the calf, which can build up over time. Less sudden than a gastrocnemius strain.",
+                  "commonCauses": ["Overuse from long-distance running", "Repetitive activities with a bent knee (e.g., cycling)", "Sudden increase in training mileage"]
+                }
+              ]
+            },
+            {
+              "id": "achilles-tendon",
+              "name": "Achilles Tendon",
+              "possibleInjuries": [
+                {
+                  "name": "Achilles Tendinitis",
+                  "description": "Inflammation, stiffness, and pain in the large tendon connecting the calf muscles to the heel bone.",
+                  "commonCauses": ["Repetitive stress from running or jumping", "Tight calf muscles", "Sudden increase in activity", "Poor footwear"]
+                },
+                {
+                  "name": "Achilles Tendon Rupture",
+                  "description": "A partial or complete tear of the Achilles tendon, often felt as a sudden, sharp 'pop' or 'kick' in the back of the ankle.",
+                  "commonCauses": ["Sudden, forceful push-off (plantarflexion)", "Jumping from a height", "Pivoting or accelerating in sports"]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "anterior",
+          "name": "Anterior Tibialis (Shin Muscle)",
+          "view": "front",
+          "subMuscles": [
+            {
+              "id": "ant-tib-main",
+              "name": "Anterior Tibialis Muscle & Tendon",
+              "possibleInjuries": [
+                {
+                  "name": "Anterior Shin Splints",
+                  "description": "Pain, inflammation, and tenderness along the front (anterior) edge of the shinbone (tibia).",
+                  "commonCauses": ["Sudden increase in running mileage or intensity", "Running on hard surfaces (e.g., concrete)", "Poor or worn-out footwear", "Weakness or overuse of the shin muscle"]
+                },
+                {
+                  "name": "Anterior Tibialis Tendinitis",
+                  "description": "Inflammation of the anterior tibialis tendon, typically causing pain on the front of the ankle, especially when lifting the foot up (dorsiflexion).",
+                  "commonCauses": ["Repetitive foot-lifting motions", "Overuse from activities like hiking or running (especially uphill)", "Friction from tight shoes or boots"]
+                },
+                {
+                  "name": "Compartment Syndrome (Anterior)",
+                  "description": "A serious condition where pressure builds up in the anterior muscle compartment, cutting off blood flow. Causes severe pain, tightness, numbness, or weakness in the shin and foot.",
+                  "commonCauses": ["Acute: A direct, hard impact to the shin", "Chronic (Exercise-Induced): Muscle swelling from repetitive exercise (e.g., running) in a tight fascial compartment"]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+}
