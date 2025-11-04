@@ -423,9 +423,23 @@ function AnatomyDiagram() {
         />
         
         {/*Ignore*/}
-        <path d="M1281 3535 c-2 -68 50 -240 169 -560 28 -77 60 -171 70 -210 l19 -70 0 85 c1 95 -20 251 -45 338 -23 79 -63 164 -129 277 -31 53 -63 113 -70 133 l-14 37 0 -30z" />
-        <path d="M1801 3456 c-57 -51 -107 -99 -111 -107 -8 -13 30 -119 52 -146 15 -19 28 -6 28 26 0 43 23 100 85 212 31 56 55 103 53 105 -2 2 -50 -39 -107 -90z" />
-        <path d="M1947 3526 c-4 -16 -37 -79 -73 -141 -80 -138 -117 -231 -143 -360 -23 -115 -38 -354 -19 -295 34 106 93 273 143 409 68 187 107 329 103 379 -3 37 -3 37 -11 8z" />
+        <path 
+          d="M1281 3535 c-2 -68 50 -240 169 -560 28 -77 60 -171 70 -210 l19 -70 0 85 c1 95 -20 251 -45 338 -23 79 -63 164 -129 277 -31 53 -63 113 -70 133 l-14 37 0 -30z" 
+          id="quad-left-front-inner"
+          style={getStyle('quad-left-front-inner')}
+          onClick={() => handlePartClick('quad-left-front-inner')}
+          onMouseEnter={() => setHoveredPart('quad-left-front-inner')}
+          onMouseLeave={() => setHoveredPart(null)}
+        />
+        <path d="M1801 3456 c-57 -51 -107 -99 -111 -107 -8 -13 30 -119 52 -146 15 -19 28 -6 28 26 0 43 23 100 85 212 31 56 55 103 53 105 -2 2 -50 -39 -107 -90z"/>
+        <path 
+          d="M1947 3526 c-4 -16 -37 -79 -73 -141 -80 -138 -117 -231 -143 -360 -23 -115 -38 -354 -19 -295 34 106 93 273 143 409 68 187 107 329 103 379 -3 37 -3 37 -11 8z" 
+          id="quad-right-front-inner"
+          style={getStyle('quad-right-front-inner')}
+          onClick={() => handlePartClick('quad-right-front-inner')}
+          onMouseEnter={() => setHoveredPart('quad-right-front-inner')}
+          onMouseLeave={() => setHoveredPart(null)}
+        />
         
         {/*Right Quads | FrontView */}
         <path
@@ -473,8 +487,24 @@ function AnatomyDiagram() {
         <path d="M3302 3088 c-36 -94 -37 -98 -18 -98 15 0 66 108 69 147 4 53 -19 31 -51 -49z" />
         <path d="M5645 3161 c-9 -15 19 -107 45 -150 16 -24 24 -31 32 -23 8 8 2 33 -21 89 -36 86 -45 100 -56 84z" />
         <path d="M427 3073 c-23 -58 -32 -91 -26 -98 12 -12 24 6 56 84 24 56 30 101 14 101 -5 0 -25 -39 -44 -87z" />
-        <path d="M1185 3087 c-4 -42 -5 -148 -2 -235 6 -194 17 -237 128 -522 18 -43 29 -2 29 106 0 88 -6 127 -51 305 -28 112 -61 254 -74 314 l-23 110 -7 -78z" />
-        <path d="M2042 3105 c-7 -33 -40 -172 -74 -308 -54 -220 -61 -260 -62 -357 -2 -155 9 -158 65 -15 84 220 108 368 93 595 l-9 145 -13 -60z" />
+        
+        <path 
+          d="M1185 3087 c-4 -42 -5 -148 -2 -235 6 -194 17 -237 128 -522 18 -43 29 -2 29 106 0 88 -6 127 -51 305 -28 112 -61 254 -74 314 l-23 110 -7 -78z"
+          id="quad-left-front-outer"
+          style={getStyle('quad-left-front-outer')}
+          onClick={() => handlePartClick('quad-left-front-outer')}
+          onMouseEnter={() => setHoveredPart('quad-left-front-outer')}
+          onMouseLeave={() => setHoveredPart(null)}
+        />
+        <path 
+          d="M2042 3105 c-7 -33 -40 -172 -74 -308 -54 -220 -61 -260 -62 -357 -2 -155 9 -158 65 -15 84 220 108 368 93 595 l-9 145 -13 -60z"
+          id="quad-right-front-outer"
+          style={getStyle('quad-right-front-outer')}
+          onClick={() => handlePartClick('quad-right-front-outer')}
+          onMouseEnter={() => setHoveredPart('quad-right-front-outer')}
+          onMouseLeave={() => setHoveredPart(null)}
+        />
+        
         <path d="M2765 3151 c-14 -23 52 -181 76 -181 16 0 10 25 -22 101 -35 82 -44 96 -54 80z" />
         <path d="M3393 3138 c-11 -12 -43 -92 -43 -104 0 -2 5 -4 11 -4 13 0 51 86 47 107 -3 14 -4 14 -15 1z" />
         <path d="M5595 3103 c14 -45 39 -82 50 -72 5 6 -23 87 -38 107 -20 26 -25 10 -12 -35z" />
@@ -503,8 +533,22 @@ function AnatomyDiagram() {
         
         {/*Ignore*/}
         <path d="M4172 3036 c-23 -25 -44 -55 -47 -68 -22 -98 -26 -137 -26 -243 0 -69 9 -177 20 -255 12 -74 22 -155 22 -180 2 -33 3 -37 6 -15 2 17 13 62 25 102 18 61 19 79 9 117 -14 57 -14 261 0 362 9 68 32 153 54 207 14 33 -22 18 -63 -27z" />
-        <path d="M1461 2715 c1 -77 -3 -187 -10 -245 -12 -112 -6 -163 22 -168 10 -2 23 10 34 30 26 49 24 268 -5 402 -32 151 -44 146 -41 -19z" />
-        <path d="M1763 2815 c-29 -95 -45 -231 -41 -345 5 -122 19 -170 49 -170 26 0 33 38 24 139 -4 47 -10 160 -14 251 -6 150 -7 161 -18 125z" />
+        <path 
+          d="M1461 2715 c1 -77 -3 -187 -10 -245 -12 -112 -6 -163 22 -168 10 -2 23 10 34 30 26 49 24 268 -5 402 -32 151 -44 146 -41 -19z"
+          id="quad-left-front-bottom"
+          style={getStyle('quad-left-front-bottom')}
+          onClick={() => handlePartClick('quad-left-front-bottom')}
+          onMouseEnter={() => setHoveredPart('quad-left-front-bottom')}
+          onMouseLeave={() => setHoveredPart(null)}
+        />
+        <path 
+          d="M1763 2815 c-29 -95 -45 -231 -41 -345 5 -122 19 -170 49 -170 26 0 33 38 24 139 -4 47 -10 160 -14 251 -6 150 -7 161 -18 125z"
+          id="quad-right-front-bottom"
+          style={getStyle('quad-right-front-bottom')}
+          onClick={() => handlePartClick('quad-right-front-bottom')}
+          onMouseEnter={() => setHoveredPart('quad-right-front-bottom')}
+          onMouseLeave={() => setHoveredPart(null)} 
+        />
         <path d="M4347 2635 c-10 -181 -9 -415 2 -415 4 0 14 21 21 46 10 34 11 93 6 232 -9 256 -20 308 -29 137z" />
         <path d="M4638 2720 c-14 -67 -29 -324 -23 -374 23 -177 45 -163 44 27 -2 223 -12 390 -21 347z" />
         <path d="M4172 2238 c-39 -245 -54 -373 -49 -413 5 -53 83 -218 99 -213 6 2 19 15 29 29 15 22 16 32 3 119 -8 52 -17 205 -20 339 -4 230 -10 271 -34 271 -4 0 -17 -60 -28 -132z" />
