@@ -529,10 +529,24 @@ function AnatomyDiagram() {
           onMouseEnter={() => setHoveredPart('hamstring-right-back')}
           onMouseLeave={() => setHoveredPart(null)}
         />
-        <path d="M4765 3069 c59 -185 81 -402 55 -552 -11 -65 -10 -81 4 -123 8 -27 20 -74 25 -104 l9 -55 1 58 c0 32 10 119 22 194 24 157 23 369 -3 461 -15 52 -60 111 -102 134 -17 9 -18 8 -11 -13z" />
+        <path 
+          d="M4765 3069 c59 -185 81 -402 55 -552 -11 -65 -10 -81 4 -123 8 -27 20 -74 25 -104 l9 -55 1 58 c0 32 10 119 22 194 24 157 23 369 -3 461 -15 52 -60 111 -102 134 -17 9 -18 8 -11 -13z" 
+          id="hamstring-right-back-outer"
+          style={getStyle('hamstring-right-back-outer')}
+          onClick={() => handlePartClick('hamstring-right-back-outer')}
+          onMouseEnter={() => setHoveredPart('hamstring-right-back-outer')}
+          onMouseLeave={() => setHoveredPart(null)}
+        />
         
         {/*Ignore*/}
-        <path d="M4172 3036 c-23 -25 -44 -55 -47 -68 -22 -98 -26 -137 -26 -243 0 -69 9 -177 20 -255 12 -74 22 -155 22 -180 2 -33 3 -37 6 -15 2 17 13 62 25 102 18 61 19 79 9 117 -14 57 -14 261 0 362 9 68 32 153 54 207 14 33 -22 18 -63 -27z" />
+        <path 
+          d="M4172 3036 c-23 -25 -44 -55 -47 -68 -22 -98 -26 -137 -26 -243 0 -69 9 -177 20 -255 12 -74 22 -155 22 -180 2 -33 3 -37 6 -15 2 17 13 62 25 102 18 61 19 79 9 117 -14 57 -14 261 0 362 9 68 32 153 54 207 14 33 -22 18 -63 -27z" 
+          id="harmstring-left-back-outer"
+          style={getStyle('hamstring-left-back-outer')}
+          onClick={() => handlePartClick('hamstring-left-back-outer')}
+          onMouseEnter={() => setHoveredPart('hamstring-left-back-outer')}
+          
+        />
         <path 
           d="M1461 2715 c1 -77 -3 -187 -10 -245 -12 -112 -6 -163 22 -168 10 -2 23 10 34 30 26 49 24 268 -5 402 -32 151 -44 146 -41 -19z"
           id="quad-left-front-bottom"
@@ -551,8 +565,22 @@ function AnatomyDiagram() {
         />
         <path d="M4347 2635 c-10 -181 -9 -415 2 -415 4 0 14 21 21 46 10 34 11 93 6 232 -9 256 -20 308 -29 137z" />
         <path d="M4638 2720 c-14 -67 -29 -324 -23 -374 23 -177 45 -163 44 27 -2 223 -12 390 -21 347z" />
-        <path d="M4172 2238 c-39 -245 -54 -373 -49 -413 5 -53 83 -218 99 -213 6 2 19 15 29 29 15 22 16 32 3 119 -8 52 -17 205 -20 339 -4 230 -10 271 -34 271 -4 0 -17 -60 -28 -132z" />
-        <path d="M4782 2361 c-9 -5 -13 -69 -17 -247 -2 -131 -10 -288 -18 -348 -15 -107 -15 -110 6 -138 20 -27 22 -28 35 -11 23 30 58 105 77 162 17 51 17 60 1 185 -26 199 -57 390 -64 398 -4 4 -13 4 -20 -1z" />
+        <path 
+          d="M4172 2238 c-39 -245 -54 -373 -49 -413 5 -53 83 -218 99 -213 6 2 19 15 29 29 15 22 16 32 3 119 -8 52 -17 205 -20 339 -4 230 -10 271 -34 271 -4 0 -17 -60 -28 -132z" 
+          id="calf-left-back-outer"
+          style={getStyle('calf-left-back-outer')}
+          onClick={() => handlePartClick('calf-left-back-outer')}
+          onMouseEnter={() => setHoveredPart('calf-left-back-outer')}
+          onMouseLeave={() => setHoveredPart(null)}
+        />
+        <path 
+          d="M4782 2361 c-9 -5 -13 -69 -17 -247 -2 -131 -10 -288 -18 -348 -15 -107 -15 -110 6 -138 20 -27 22 -28 35 -11 23 30 58 105 77 162 17 51 17 60 1 185 -26 199 -57 390 -64 398 -4 4 -13 4 -20 -1z" 
+          id="calf-right-back-outer"
+          style={getStyle('calf-right-back-outer')}
+          onClick={() => handlePartClick('calf-right-back-outer')}
+          onMouseEnter={() => setHoveredPart('calf-right-back-outer')}
+          onMouseLeave={() => setHoveredPart(null)}
+        />
         
         {/*Left Calf | BackView */}
         <path
@@ -597,10 +625,37 @@ function AnatomyDiagram() {
         />
         
         {/*Ignore*/}
-        <path d="M1492 1936 c-54 -119 -64 -462 -20 -716 l11 -65 28 145 c43 216 61 350 54 395 -8 46 -55 258 -59 262 -2 2 -8 -8 -14 -21z" />
-        <path d="M1738 1955 c-22 -37 -53 -220 -52 -310 0 -88 50 -411 71 -465 24 -60 54 445 35 585 -13 91 -45 205 -54 190z" />
-        <path d="M1257 1798 c4 -88 15 -141 74 -361 70 -262 97 -342 98 -300 1 12 -4 34 -10 50 -6 15 -26 116 -44 223 -28 160 -104 472 -118 487 -2 2 -2 -43 0 -99z" />
-        <path d="M1942 1740 c-24 -89 -56 -236 -72 -329 -15 -93 -36 -196 -46 -230 -9 -34 -14 -64 -11 -67 7 -8 48 122 112 357 45 168 56 227 62 318 3 61 4 111 2 111 -2 0 -23 -72 -47 -160z" />
+        <path 
+          d="M1492 1936 c-54 -119 -64 -462 -20 -716 l11 -65 28 145 c43 216 61 350 54 395 -8 46 -55 258 -59 262 -2 2 -8 -8 -14 -21z"
+          id="calf-left-front"
+          style={getStyle('calf-left-front')}
+          onClick={() => handlePartClick('calf-left-front')}
+          onMouseEnter={() => setHoveredPart('calf-left-front')}
+          onMouseLeave={() => setHoveredPart(null)}
+        />
+        <path 
+          d="M1738 1955 c-22 -37 -53 -220 -52 -310 0 -88 50 -411 71 -465 24 -60 54 445 35 585 -13 91 -45 205 -54 190z"
+          id="calf-right-front"
+          style={getStyle('calf-right-front')}  
+          onClick={() => handlePartClick('calf-right-front')}
+          onMouseEnter={() => setHoveredPart('calf-right-front')}
+          onMouseLeave={() => setHoveredPart(null)}
+        />
+        <path 
+          d="M1257 1798 c4 -88 15 -141 74 -361 70 -262 97 -342 98 -300 1 12 -4 34 -10 50 -6 15 -26 116 -44 223 -28 160 -104 472 -118 487 -2 2 -2 -43 0 -99z"
+          id="anterior-left-tibialis-front-lower" 
+          style={getStyle('anterior-left-tibialis-front-lower')}
+          onClick={() => handlePartClick('anterior-left-tibialis-front-lower')}
+          onMouseEnter={() => setHoveredPart('anterior-left-tibialis-front-lower')}
+        />
+        <path 
+          d="M1942 1740 c-24 -89 -56 -236 -72 -329 -15 -93 -36 -196 -46 -230 -9 -34 -14 -64 -11 -67 7 -8 48 122 112 357 45 168 56 227 62 318 3 61 4 111 2 111 -2 0 -23 -72 -47 -160z"
+          id="anterior-right-tibialis-front-lower"
+          style={getStyle('anterior-right-tibialis-front-lower')}
+          onClick={() => handlePartClick('anterior-right-tibialis-front-lower')}
+          onMouseEnter={() => setHoveredPart('anterior-right-tibialis-front-lower')}
+          onMouseLeave={() => setHoveredPart(null)}
+        />
         <path d="M4196 1564 c-13 -34 -5 -96 24 -177 46 -130 70 -242 76 -352 6 -119 11 -145 25 -145 34 0 -53 629 -93 677 -14 17 -25 16 -32 -3z" />
         <path d="M4761 1567 c-39 -47 -125 -677 -93 -677 15 0 20 25 26 135 6 114 28 223 72 349 19 55 34 118 34 141 0 48 -20 74 -39 52z" />
         <path d="M4396 1543 c-8 -32 -22 -279 -30 -498 l-5 -150 10 135 c5 74 18 205 29 291 22 168 25 249 11 249 -5 0 -12 -12 -15 -27z" />
